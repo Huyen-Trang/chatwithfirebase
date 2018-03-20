@@ -18,9 +18,9 @@ public class MainActivity extends AppCompatActivity implements ActivityCallback 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_initial);
-
         getSupportFragmentManager()
                 .beginTransaction()
                 .add(R.id.container, LoginFragment.newInstance())

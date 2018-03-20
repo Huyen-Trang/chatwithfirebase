@@ -53,6 +53,7 @@ public class CreateAccountFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+
         View root = inflater.inflate(R.layout.fragment_create_account, container, false);
 
         mUsername = (EditText) root.findViewById(R.id.create_account_username);
